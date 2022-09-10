@@ -79,6 +79,7 @@ function App() {
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
